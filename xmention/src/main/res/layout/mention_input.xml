@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mention_inputLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    app:boxStrokeWidth="0dp"
+    app:boxStrokeWidthFocused="0dp"
+    app:hintEnabled="false"
+    app:endIconMode="custom"
+    app:endIconDrawable="@drawable/ic_emoji">
+
+    <com.vanniktech.emoji.EmojiEditText
+        android:id="@+id/mention_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:padding="0dp"
+        android:hint="@string/default_hint"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:privateImeOptions="nm"
+        android:backgroundTint="@android:color/background_dark" />
+
+</com.google.android.material.textfield.TextInputLayout>

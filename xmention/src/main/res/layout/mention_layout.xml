@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aghiadodeh.xmention.ui.shadow.ShadowView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    app:backgroundColor="@android:color/transparent"
+    app:cornerRadiusTL="@dimen/unit"
+    app:cornerRadiusTR="@dimen/unit"
+    app:shadowColor="@color/shadow_color"
+    app:shadowMarginLeft="1dp"
+    app:shadowMarginRight="1dp"
+    app:shadowMarginTop="3dp"
+    app:shadowRadius="14dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mention_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/unit"
+            android:layout_marginStart="@dimen/unit"
+            app:layout_constraintHeight_max="350dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.vanniktech.emoji.EmojiEditText
+            app:layout_constraintTop_toBottomOf="@id/mention_rv"
+            android:id="@+id/mention_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_emoji"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.aghiadodeh.xmention.ui.shadow.ShadowView>

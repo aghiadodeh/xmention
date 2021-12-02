@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_margin">5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="two_units">16dp</dimen>
+    <dimen name="three_units">24dp</dimen>
+    <dimen name="four_units">32dp</dimen>
+    <dimen name="unit">8dp</dimen>
+    <dimen name="unit_and_half">12dp</dimen>
+    <dimen name="editText_height">46dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_height2">45dp</dimen>
+    <dimen name="btn_border_width">0.5dp</dimen>
+    <dimen name="quarter_a_unit">2dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="medium_text">18sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="large_text">24sp</dimen>
+    <dimen name="very_large_text">32sp</dimen>
+    <dimen name="very_very_large_text">36sp</dimen>
+    <dimen name="very_small_text">12sp</dimen>
+    <dimen name="very_very_small_text">10sp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="standard_padding">6dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="button_min_width">200dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+</resources>

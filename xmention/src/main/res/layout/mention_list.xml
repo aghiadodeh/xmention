@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aghiadodeh.xmention.ui.shadow.ShadowView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    app:cornerRadiusTL="@dimen/unit"
+    app:cornerRadiusTR="@dimen/unit"
+    app:shadowColor="@color/shadow_color"
+    app:shadowMarginLeft="1dp"
+    app:shadowMarginRight="1dp"
+    app:shadowMarginTop="3dp"
+    app:shadowRadius="14dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mention_constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mention_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.aghiadodeh.xmention.ui.shadow.ShadowView>
