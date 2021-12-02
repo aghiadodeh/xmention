@@ -1,4 +1,4 @@
-# Android Vertical Stepper
+# Android Mention Input
 
 ### Implementation
 add `maven { url 'https://jitpack.io' }` to build.gradle in your project:
