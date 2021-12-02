@@ -64,7 +64,7 @@ dependencies {
     implementation 'com.vanniktech:emoji:0.7.0'
     implementation 'com.vanniktech:emoji-ios:0.7.0'
 
-    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.6.0"
 }
 
 
