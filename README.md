@@ -29,8 +29,8 @@ dependencies {
 #### Stepper
 
 Attribute Name | Format | Default Value | Description
-------------- | ------------- | -------------
-input_trigger | string | @ | charachter which open mention list
+------------- | ------------- | ------------- | -------------
+input_trigger | string | @ | character which open mention list
 input_hint_text  | string | "" | mention input hint
 input_tint_color  | color | android.R.color.transparent | editText underline color
 input_show_emoji_icon | boolean | true | emoji icon visibility
@@ -50,7 +50,7 @@ input_keyboard_icon  | reference | R.drawable.ic_keyboard | mention input keyboa
 
 `parsedString(): String`: Parsed Text, example: ```<mention>34154f50-59b5-4863-acd5-d6dd40dabd8e,Annette Cooper</mention>```
 
-`appendTrigger()`: Add trigger charachter at the end of input text
+`appendTrigger()`: Add trigger character at the end of input text
 ## 
 
 in `your_activity.xml`
